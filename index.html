@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Static responsive web page built from a wireframe using semantic HTML and CSS.">
+  <title>Wireframe to Web Page | Ajay Ghodture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Brand<span>Wave</span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+      <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact" class="btn btn-small">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Static Web Page</p>
+          <h1>Turning wireframes into pixel-perfect pages</h1>
+          <p>A clean, responsive layout built with semantic HTML5 and modern CSS. It adapts smoothly from large desktops down to small phones.</p>
+          <div class="hero-actions">
+            <a href="#features" class="btn">Get Started</a>
+            <a href="#about" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-image" role="img" aria-label="Placeholder illustration for the hero section">
+          <span>Hero Image</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-title">Key Features</h2>
+        <p class="section-sub">Everything the wireframe asked for, built the right way.</p>
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="icon">1</div>
+            <h3>Semantic HTML</h3>
+            <p>Header, nav, main, section, article and footer tags give the page a clear structure.</p>
+          </article>
+          <article class="card">
+            <div class="icon">2</div>
+            <h3>Clean CSS</h3>
+            <p>One organised stylesheet with variables, consistent spacing and reusable classes.</p>
+          </article>
+          <article class="card">
+            <div class="icon">3</div>
+            <h3>Fully Responsive</h3>
+            <p>Flexbox, Grid and media queries keep the layout tidy on every screen size.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container about-inner">
+        <div class="about-image" role="img" aria-label="Placeholder illustration for the about section">
+          <span>About Image</span>
+        </div>
+        <div class="about-text">
+          <h2>About This Project</h2>
+          <p>This page replicates a provided wireframe: header with navigation, hero area, content blocks, services, contact form and footer.</p>
+          <ul class="check-list">
+            <li>Layout matched to the wireframe</li>
+            <li>Consistent colours, fonts and spacing</li>
+            <li>Tested on desktop, tablet and mobile</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-sub">A simple grid that reflows from four columns to one.</p>
+        <div class="grid grid-4">
+          <article class="card center"><h3>Design</h3><p>Layouts that follow the wireframe closely.</p></article>
+          <article class="card center"><h3>Development</h3><p>Hand-written HTML and CSS.</p></article>
+          <article class="card center"><h3>Testing</h3><p>Checks across screen sizes.</p></article>
+          <article class="card center"><h3>Support</h3><p>Clear documentation of decisions.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container narrow">
+        <h2 class="section-title">Contact Us</h2>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 BrandWave. Built by Ajay Ghodture.</p>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
